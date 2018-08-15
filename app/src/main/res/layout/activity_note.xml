@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.NoteActivity">
+
+        <EditText
+            android:id="@+id/note_text"
+            style="@style/margin_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/note_placeholder"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+        <com.github.ag.floatingactionmenu.OptionsFabLayout
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:fabSize="normal"
+            custom:color="@color/colorSecondary"
+
+            custom:options_color="@color/colorPrimaryDark2"
+            custom:options_menu="@menu/fab_menu"
+            custom:src="@drawable/ic_add_black_24dp" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

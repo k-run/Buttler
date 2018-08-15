@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Buttler</string>
+    <string name="note_placeholder">Write here…</string>
+    <string name="empty_insert">Please add a note!!</string>
+    <string name="success_insert">Note added successfully</string>
+    <string name="failure_insert">Could not insert!</string>
+    <string name="failure_display">Unable to load notes!</string>
+    <string name="fab_save">Save</string>
+    <string name="fab_delete">Delete</string>
+    <string name="fab_share">Share</string>
+    <string name="alert_message">Delete</string>
+    <string name="alert_yes">Delete</string>
+    <string name="alert_no">Cancel</string>
+    <string name="delete_success">Note deleted successfully!</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="alert_message_2">notes?</string>
+    <string name="list_grid">List_Grid</string>
+    <string name="empty_message">Nothing to Display!</string>
+    <string name="empty_message_body">Click on the button to add</string>
+    <string name="add_a_note">Add a note</string>
+    <string name="_6_jul_19_00">6 Jul 19:00</string>
+
+</resources>

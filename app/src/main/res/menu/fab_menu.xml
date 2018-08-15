@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fab_save"
+        android:icon="@drawable/ic_done_black_24dp"
+        android:title="@string/fab_save" />
+
+    <item
+        android:id="@+id/fab_delete"
+        android:icon="@drawable/ic_delete_forever_24dp"
+        android:title="@string/fab_delete" />
+
+    <item
+        android:id="@+id/fab_share"
+        android:icon="@drawable/ic_share_24dp"
+        android:title="@string/fab_share" />
+</menu>

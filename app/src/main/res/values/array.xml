@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdcolor_50to300">
+        <item name="deep_purple_50">#EDE7F6</item>
+        <item name="deep_purple_100">#D1C4E9</item>
+        <item name="deep_purple_200">#B39DDB</item>
+        <item name="deep_purple_300">#9575CD</item>
+
+        <item name="indigo_50">#E8EAF6</item>
+        <item name="indigo_100">#C5CAE9</item>
+        <item name="indigo_200">#9FA8DA</item>
+        <item name="indigo_300">#7986CB</item>
+        <item name="indigo_300">#7986CB</item>
+
+        <item name="blue_50">#E3F2FD</item>
+        <item name="blue_100">#BBDEFB</item>
+        <item name="blue_200">#90CAF9</item>
+        <item name="blue_300">#64B5F6</item>
+
+    </array>
+
+    <array name="mdcolor_400">
+        <item name="deep_purple_400" type="color">#7e57c2</item>
+        <item name="indigo_400" type="color">#5c6bc0</item>
+        <item name="blue_400" type="color">#738ffe</item>
+        <item name="light_blue_400" type="color">#29b6f6</item>
+        <item name="cyan_400" type="color">#26c6da</item>
+        <item name="teal_400" type="color">#26a69a</item>
+
+    </array>
+
+    <array name="mdcolor_500">
+        <item name="deep_purple_500" type="color">#673ab7</item>
+        <item name="indigo_500" type="color">#3f51b5</item>
+        <item name="blue_500" type="color">#5677fc</item>
+        <item name="light_blue_500" type="color">#03a9f4</item>
+        <item name="cyan_500" type="color">#00bcd4</item>
+        <item name="teal_500" type="color">#009688</item>
+        <item name="blue_grey_500" type="color">#607d8b</item>
+    </array>
+</resources>
